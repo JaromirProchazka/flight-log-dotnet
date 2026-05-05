@@ -2,6 +2,10 @@
 
 Jednoduchá aplikace pro evidenci letů na malém letišti.
 
+## Run
+
+Aplikaci lze spustit přez `dotnet build .\FlightLogNet\FlightLogNet.csproj`/`dotnet run .\FlightLogNet\FlightLogNet.csproj`, případně přez docker kontejner.
+
 ## Funkce
 
 - evidence vzletů a přistání
@@ -16,4 +20,4 @@ Jednoduchá aplikace pro evidenci letů na malém letišti.
 - **frontend/** obsahuje kód frontendu
 
 - **API_doc.md** obsahuje dokumentaci REST API aplikace FlightLogNet
-- **Dockerfile** and **docker-compose.yml** for running the app as Docker container, more information in 'Provozní příručka.docx' given with the app
+- **Dockerfile** a **docker-compose.yml** pro spuštění skrze docker
