@@ -16,3 +16,4 @@ Jednoduchá aplikace pro evidenci letů na malém letišti.
 - **frontend/** obsahuje kód frontendu
 
 - **API_doc.md** obsahuje dokumentaci REST API aplikace FlightLogNet
+- **Dockerfile** and **docker-compose.yml** for running the app as Docker container, more information in 'Provozní příručka.docx' given with the app
